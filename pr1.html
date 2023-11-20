@@ -1,0 +1,79 @@
+<html>
+    <body>
+        <script>     
+//pr1.write a program to calculate the area of the right angle triangle.
+var base=20;
+var height=30;
+a=0.5*base*height;
+console.log(a);
+//pr2.write a program for distance between two points.
+var x1=20,y1=30;
+var x2=40,y2=60;
+ var m=(x2-x1);
+ var n=(y2-y1);
+ p= m**2;
+ o= n**2;
+ q=p+o;
+ console.log(0.5*q);
+ //pr3.write a program so that it prints the total amount where 10rps coins are 100,5rps coins are 50, 2rps coins are 20 and 1rp coins are 10.
+ var a=10; var b=5; var c=2; var d=1;
+var e=100; var f=50; var g=20; var h=10;
+var i=a*e;
+var j=b*f;
+var k=c*g;
+var l=d*h;
+amount=i+j+k+l;
+console.log(amount);
+//pr4.write a program to extract the last digit of a given number.
+var number=8674;
+p=number%10;
+console.log(p);
+//pr5.write a program that swap two numbers.
+var a=10;
+var b=50;
+temp=a;
+var a=b;
+b=temp;
+console.log(temp);
+//pr6.write a program that calculates the area of a circle.
+var r=4;
+p=r**2;
+b=3.14*p;
+console.log(b);
+//pr7.Write a program that prompts users to enter two integers x and y. The program then calculates and displays x power y.
+var a=prompt("enter x value");
+var b=prompt("enter y value");
+    m=a**b;
+    console.log(m);
+    //pr8.Write a program that calculates number of seconds in a day.
+    var a=24;
+var b=60;
+var c=60;
+m=a*b*c;
+console.log(m);
+//pr9.Write a program to calculate simple interest and compound interest
+//simple interest
+var principal=3000;
+var time=24;
+var rate=6;
+m=principal*time*rate;
+si=m/100;
+console.log(si);
+//compound interest
+var principal=5000;
+var rate=4;
+var n=2;
+m=principal*(1+(rate/100))**n;
+console.log(m);
+//pr10.Write a program to calculate salary of an employee given his basic pay (to be entered by the user), HRA = 10 per cent of basic pay, TA = 5 per cent of basic pay. Define HRA and TA as constants and use them to calculate the salary of the employee.
+var ctc=80000;
+const HRA=10*ctc/100;
+console.log(HRA);
+const TA=5*ctc/100;
+console.log(TA);
+var left_pct=100-(10+5);
+salary=left_pct*ctc/100;
+console.log(salary);
+        </script>
+    </body>
+</html>
